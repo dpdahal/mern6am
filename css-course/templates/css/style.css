@@ -1,0 +1,18 @@
+@import "./box.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* 
+selector: 
+display: flex or display: grid
+position: relative or position: absolute
+background: red or background: blue
+font-size: 20px or font-size: 30px
+margin and padding
+
+*/

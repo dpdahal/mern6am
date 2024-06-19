@@ -1,0 +1,17 @@
+body {
+  background: gray;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+  background: white;
+}
+.container .box {
+  width: 100px;
+  height: 100px;
+  background: rgb(11, 62, 230);
+  margin: 10px;
+  float: left;
+}/*# sourceMappingURL=style.css.map */

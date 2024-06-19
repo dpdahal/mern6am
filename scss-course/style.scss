@@ -1,0 +1,21 @@
+$primary-color: rgb(11, 62, 230);
+
+body{
+    background: gray;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    background: white;
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background: $primary-color;
+        margin: 10px;
+        float: left;
+    }
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <blockquote>
+        <h1>Add Two number</h1>
+        First Number: <input type="text" id="fn"> <br><br>
+        Second Number: <input type="text" id="sn"> <br><br>
+        Result: <input type="text" readonly id="result"> <br><br>
+        <button onclick="addNum()">Add</button>
+        <script>
+            function addNum(){
+                let fn =parseInt(document.getElementById('fn').value);
+                let sn =parseInt(document.getElementById('sn').value);
+                let result = fn + sn;
+                document.getElementById('result').value = result;
+            }
+
+        </script>
+    </blockquote>
+</body>
+</html>

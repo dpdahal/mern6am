@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #red{
+            background: red;
+            width: 100px;
+            height: 100px;
+            display: none;
+        }
+        #green{
+            background: green;
+            width: 100px;
+            height: 100px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <blockquote>
+        <h1>DOM Event</h1>
+        <!-- <input type="text" id="search"> -->
+         <!-- <textarea id="message" rows="5" cols="30"></textarea> -->
+          <div id="red"></div>
+          <div id="green"></div>
+    </blockquote>
+    <script>
+        // document.getElementById('search').addEventListener('keyup',function(){
+        //    console.log(this.value)
+        // })
+
+        // document.getElementById('message').addEventListener('keyup',function(){
+        //     // key code
+        //     if(event.keyCode == 13){
+        //         console.log(this.value)
+        //     }
+        // })
+
+        // let num=11;
+
+        // if(num%2==0){
+        //     document.getElementById('green').style.display='block';
+        // }else{
+        //     document.getElementById('red').style.display='block';
+        // }
+
+        let x=50;
+        let y=20;
+        // console.log(x>y);
+        if(x>y){
+            console.log('x is greater than y');
+        }else if(x==y){
+            console.log('x is equal to y');
+        }
+        else{
+            console.log('y is greater than x');
+        }
+
+    </script>
+</body>
+</html>

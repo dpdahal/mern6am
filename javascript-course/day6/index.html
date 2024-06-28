@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider{
+            width: 100%;
+            height: 500px;
+        }
+        .slider img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+           }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="./images/a.jpg" alt="">
+        <img src="./images/b.jpg" alt="">
+        <img src="./images/c.jpg" alt="">
+    </div>
+    <script>
+        function slider(){
+            let totalObject = document.querySelectorAll('.slider img');
+            let x = 0;
+            let interval = setInterval(() => {
+                for(let i = 0; i < totalObject.length; i++){
+                    totalObject[i].style.display = 'none';
+                }
+                if(x >= totalObject.length){
+                    x = 0;
+                }
+                totalObject[x].style.display = 'block';
+                x++;
+            }, 2000);
+        }
+
+        slider();
+    </script>
+    
+</body>
+</html>

@@ -77,8 +77,6 @@ function updateRecord(id){
     document.getElementById('address').value = student.address;
     document.getElementById('criteria').value = student.id;
     document.getElementById("btn_name").innerHTML = "Update";
-
-
 }
 
 
